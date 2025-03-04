@@ -2,6 +2,7 @@ from kafka import KafkaConsumer
 import json
 import joblib
 import pandas as pd
+import numpy as np
 
 # Load trained model
 model = joblib.load("models/model.pkl")
